@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_app_flutter/foods_page.dart';
 import 'categories_page.dart';
 
 void main() {

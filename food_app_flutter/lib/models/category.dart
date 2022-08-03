@@ -5,4 +5,9 @@ class Category {
   Color color;
 
   Category(this.id, this.content, this.color);
+
+  @override
+  String toString() {
+    return '${this.id} - ${this.content} - ${this.color}';
+  }
 }
