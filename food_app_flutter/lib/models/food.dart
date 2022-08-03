@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter/cupertino.dart';
 class Food {
   int id;
@@ -9,8 +10,9 @@ class Food {
   List<String> ingredients = <String>[];
   int categoryId;
 
-  Food(this.id, this.name, this.urlName, this.duration,
-      this.complexity,this.ingredients, this.categoryId);
+  Food(this.id, this.name, this.urlName,
+      this.duration, this.complexity,
+      this.ingredients, this.categoryId);
 
   @override
   String toString() {
