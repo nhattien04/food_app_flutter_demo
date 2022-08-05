@@ -58,7 +58,45 @@ class FoodsPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                    )
+                    ),
+                    Positioned(
+                      top: 30,
+                      right: 30,
+                      child: Container(
+                        padding: EdgeInsets.all(5),
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: Colors.deepOrangeAccent
+                        ),
+                        child: Row(
+                          children: [
+                            Text(' ${food.complexity.name}',
+                              style: TextStyle(fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white),)
+                          ],
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      bottom: 30,
+                      left: 30,
+                      child: Container(
+                        padding: EdgeInsets.all(5),
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: Colors.teal
+                        ),
+                        child: Row(
+                          children: [
+                            Text(' ${food.name}',
+                              style: TextStyle(fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white),)
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               );
