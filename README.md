@@ -1,1 +1,1 @@
-# food_app
+# food_app_flutter_demo
